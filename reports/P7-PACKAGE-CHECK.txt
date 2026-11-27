@@ -1,0 +1,8 @@
+Customer: manifest, missing-config startup and static dependencies PASS
+Admin: manifest, missing-config startup and static dependencies PASS
+Customer classes: 37
+Admin classes: 171
+Core classes: 92
+Role-specific contents, complete class partition, no duplication and no combined JAR: PASS
+Local demo setup: run SETUP-WINDOWS.bat after installing MySQL 8 and Java 17+.
+Creates only a NEW bank_system_demo database; refuses any existing database of that name.

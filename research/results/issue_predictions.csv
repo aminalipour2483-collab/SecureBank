@@ -1,0 +1,17 @@
+group,split,label,text,tfidf_logistic,tfidf_naive_bayes
+authentication-6,test,authentication,Customer recovery changes wrong account,authentication,authentication
+authentication-6,test,authentication,PIN reset affects another identity,authentication,authentication
+authentication-7,test,authentication,Expired session can still open protected screen,authentication,authentication
+authentication-7,test,authentication,Authentication guard accepts old session,authentication,authentication
+database-6,test,database,Database timeout prevents transaction commit,database,database
+database-6,test,database,JDBC commit operation times out,database,database
+database-7,test,database,MySQL foreign key rejects account deletion,authentication,authentication
+database-7,test,database,SQL constraint prevents deleting account,database,database
+ui-6,test,ui,Graph zoom moves nodes off canvas,ui,ui
+ui-6,test,ui,Canvas viewport loses diagram,ui,authentication
+ui-7,test,ui,Error dialog opens behind main window,ui,ui
+ui-7,test,ui,Popup is hidden by Swing frame,ui,ui
+fraud_detection-6,test,fraud_detection,Community grouping splits known synthetic ring,fraud_detection,fraud_detection
+fraud_detection-6,test,fraud_detection,Graph clustering separates planted ring,fraud_detection,fraud_detection
+fraud_detection-7,test,fraud_detection,Extreme amount distorts anomaly ranking,fraud_detection,fraud_detection
+fraud_detection-7,test,fraud_detection,Outlier detector misorders unusual amounts,fraud_detection,fraud_detection

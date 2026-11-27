@@ -1,0 +1,12 @@
+-- The grants for the local demo database are already included in INSTALL_ALL.sql.
+-- Do not execute this legacy standalone grant file. Run sql/INSTALL_ALL.sql once instead.
+
+-- P6 grants are incorporated into sql/INSTALL_ALL.sql.
+-- If upgrading an existing P5 installation, run these grants as a privileged DBA
+-- after applying sql/04_fraud_outbox.sql (adjust host/user names if different):
+-- GRANT INSERT ON bank_system_demo.fraud_outbox TO 'bank_customer_app'@'localhost';
+-- GRANT SELECT, UPDATE ON bank_system_demo.fraud_outbox TO 'bank_admin_app'@'localhost';
+-- GRANT SELECT, INSERT, UPDATE ON bank_system_demo.fraud_outbox_attempts TO 'bank_admin_app'@'localhost';
+-- GRANT SELECT, INSERT ON bank_system_demo.fraud_event_results TO 'bank_admin_app'@'localhost';
+-- GRANT SELECT, INSERT ON bank_system_demo.fraud_outbox_retry_events TO 'bank_admin_app'@'localhost';
+-- GRANT SELECT, INSERT, UPDATE ON bank_system_demo.fraud_alerts TO 'bank_admin_app'@'localhost';

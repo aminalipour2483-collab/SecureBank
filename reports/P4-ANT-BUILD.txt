@@ -1,0 +1,7 @@
+    [javac] warning: [options] system modules path not set in conjunction with -source 17
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 1 warning
+
+BUILD SUCCESSFUL
+Total time: 3 seconds

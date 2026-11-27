@@ -1,0 +1,65 @@
+group,split,label,text
+authentication-0,train,authentication,Login rejects correct PIN
+authentication-0,train,authentication,Valid PIN cannot sign in
+authentication-1,train,authentication,Account lockout never expires
+authentication-1,train,authentication,Locked user stays blocked
+authentication-2,train,authentication,Password reset token rejected
+authentication-2,train,authentication,Recovery token fails verification
+authentication-3,train,authentication,Admin session not cleared on logout
+authentication-3,train,authentication,Administrator remains signed in
+authentication-4,train,authentication,Login throttling ignores failed attempts
+authentication-4,train,authentication,Repeated invalid passwords are not limited
+authentication-5,validation,authentication,BCrypt verification fails after registration
+authentication-5,validation,authentication,New password hash is not accepted
+authentication-6,test,authentication,Customer recovery changes wrong account
+authentication-6,test,authentication,PIN reset affects another identity
+authentication-7,test,authentication,Expired session can still open protected screen
+authentication-7,test,authentication,Authentication guard accepts old session
+database-0,train,database,Transfer rollback leaves debit committed
+database-0,train,database,Failed transaction still deducts balance
+database-1,train,database,Connection pool runs out of JDBC connections
+database-1,train,database,Database handles are not returned to pool
+database-2,train,database,SQL migration missing required column
+database-2,train,database,Schema upgrade fails on absent field
+database-3,train,database,Duplicate idempotency key creates second transfer
+database-3,train,database,Retry writes another transaction row
+database-4,train,database,Deadlock during concurrent balance updates
+database-4,train,database,Parallel SQL operations wait on locks
+database-5,validation,database,Prepared statement parameter order is wrong
+database-5,validation,database,Query binds the wrong value
+database-6,test,database,Database timeout prevents transaction commit
+database-6,test,database,JDBC commit operation times out
+database-7,test,database,MySQL foreign key rejects account deletion
+database-7,test,database,SQL constraint prevents deleting account
+ui-0,train,ui,Customer window freezes during registration
+ui-0,train,ui,Swing form becomes unresponsive
+ui-1,train,ui,Graph labels overlap after resize
+ui-1,train,ui,Node captions collide in resized panel
+ui-2,train,ui,Transaction history table does not refresh
+ui-2,train,ui,Displayed rows stay stale
+ui-3,train,ui,Persian text clipped in dialog
+ui-3,train,ui,Right-to-left caption is cut off
+ui-4,train,ui,Progress spinner remains after worker finishes
+ui-4,train,ui,Loading indicator never disappears
+ui-5,validation,ui,Admin review button stays disabled
+ui-5,validation,ui,Investigation control cannot be clicked
+ui-6,test,ui,Graph zoom moves nodes off canvas
+ui-6,test,ui,Canvas viewport loses diagram
+ui-7,test,ui,Error dialog opens behind main window
+ui-7,test,ui,Popup is hidden by Swing frame
+fraud_detection-0,train,fraud_detection,Isolation Forest scores ordinary customers too high
+fraud_detection-0,train,fraud_detection,Anomaly model flags normal behavior
+fraud_detection-1,train,fraud_detection,Money cycle detector misses circular transfers
+fraud_detection-1,train,fraud_detection,Directed ring not found in graph
+fraud_detection-2,train,fraud_detection,Risk explanation omits triggered velocity rule
+fraud_detection-2,train,fraud_detection,Score reasons lack transfer frequency signal
+fraud_detection-3,train,fraud_detection,PageRank ranking changes for identical snapshot
+fraud_detection-3,train,fraud_detection,Centrality output is not deterministic
+fraud_detection-4,train,fraud_detection,Small baseline incorrectly activates anomaly detector
+fraud_detection-4,train,fraud_detection,Insufficient peers still get anomaly scores
+fraud_detection-5,validation,fraud_detection,Shared phone signal duplicates risk points
+fraud_detection-5,validation,fraud_detection,Graph risk counts phone link twice
+fraud_detection-6,test,fraud_detection,Community grouping splits known synthetic ring
+fraud_detection-6,test,fraud_detection,Graph clustering separates planted ring
+fraud_detection-7,test,fraud_detection,Extreme amount distorts anomaly ranking
+fraud_detection-7,test,fraud_detection,Outlier detector misorders unusual amounts

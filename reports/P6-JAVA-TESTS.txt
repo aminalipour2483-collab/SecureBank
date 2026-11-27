@@ -1,0 +1,65 @@
+All required dependencies are present in lib/.
+=== com.bank.fraud.FraudEngineSmokeTest
+ RESULT: 36 passed, 0 failed
+=== com.bank.fraud.outbox.FraudOutboxWorkerTest
+FraudOutboxWorkerTest: 9 passed, 0 failed
+=== com.bank.fraud.outbox.FraudOutboxSchemaContractTest
+FraudOutboxSchemaContractTest: 25 passed, 0 failed
+=== com.bank.graph.CustomerGraphTest
+CustomerGraphTest: 57 passed, 0 failed
+=== com.bank.service.AdminOperationsGuardTest
+AdminOperationsGuardTest: 13 passed, 0 failed
+=== com.bank.service.CustomerLifecycleServiceTest
+CustomerLifecycleServiceTest: 14 passed, 0 failed
+=== com.bank.service.AccountClosurePolicyTest
+AccountClosurePolicyTest: 4 passed, 0 failed
+=== com.bank.service.CustomerLifecycleSchemaContractTest
+CustomerLifecycleSchemaContractTest: 9 passed, 0 failed
+=== com.bank.service.CustomerPinRecoveryTest
+CustomerPinRecoveryTest: 16 passed, 0 failed
+=== com.bank.service.CustomerInboxServiceTest
+CustomerInboxServiceTest: 8 passed, 0 failed
+=== com.bank.security.ConfiguredAdminAuthenticationServiceTest
+ConfiguredAdminAuthenticationServiceTest: 20 passed, 0 failed
+=== com.bank.security.DatabaseAdminAuthenticationServiceTest
+DatabaseAdminAuthenticationServiceTest: 8 passed, 0 failed
+=== com.bank.security.CustomerSessionServiceTest
+CustomerSessionServiceTest: 13 passed, 0 failed
+=== com.bank.security.CustomerAccessGuardTest
+CustomerAccessGuardTest: 19 passed, 0 failed
+=== com.bank.registration.RegistrationServiceTest
+RegistrationServiceTest: 12 passed, 0 failed
+=== com.bank.registration.RegistrationDAOImplTest
+RegistrationDAOImplTest: 14 passed, 0 failed
+=== com.bank.security.LoginThrottleTest
+LoginThrottleTest: 57 passed, 0 failed
+=== com.bank.config.DatabaseConfigTest
+DatabaseConfigTest: 47 passed, 0 failed
+=== com.bank.config.DatabaseConnectionPoolConfigTest
+DatabaseConnectionPoolConfigTest: 21 passed, 0 failed
+=== com.bank.config.DatabaseConnectionEvictionTest
+DatabaseConnectionEvictionTest: 8 passed, 0 failed
+=== com.bank.infrastructure.jdbc.JdbcTransactionExecutorTest
+JdbcTransactionExecutorTest: 29 passed, 0 failed
+=== com.bank.ArchitectureRulesTest
+ArchitectureRulesTest: 24 passed, 0 failed
+=== com.bank.graph.infrastructure.JdbcCustomerGraphRepositoryTest
+JdbcCustomerGraphRepositoryTest: 34 passed, 0 failed
+=== com.bank.fraudring.FraudRingAnalyzerTest
+FraudRingAnalyzerTest: 68 passed, 0 failed
+=== com.bank.fraudring.GraphIsolationForestTest
+GraphIsolationForestTest: 8 passed, 0 failed
+=== com.bank.fraudring.FraudRingScoringTest
+FraudRingScoringTest: 71 passed, 0 failed
+=== com.bank.fraudring.FraudRingServiceTest
+FraudRingServiceTest: 49 passed, 0 failed
+=== com.bank.fraudring.JdbcFraudRingSourceRepositoryTest
+JdbcFraudRingSourceRepositoryTest: 26 passed, 0 failed
+=== com.bank.fraudring.JdbcFraudRingResultRepositoryTest
+JdbcFraudRingResultRepositoryTest: 30 passed, 0 failed
+=== com.bank.view.admin.GraphLayoutAndCanvasTest
+GraphLayoutAndCanvasTest: 18 passed, 0 failed
+=== com.bank.view.admin.FraudRingPanelTest
+FraudRingPanelTest: 64 passed, 0 failed
+=== com.bank.view.admin.CustomerGraphPanelTest
+CustomerGraphPanelTest: 21 passed, 0 failed
